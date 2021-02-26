@@ -1,0 +1,418 @@
+@font-face {
+  font-family: poppins;
+  font-family: port;
+  font-family: poppins-reg;
+  src: url(font/Poppins-SemiBold.ttf);
+  src: url(font/PortLligatSans-Regular.ttf);
+  src: url(font/Poppins-Regular.ttf);
+}
+
+body {
+  background-color: #333333;
+  margin: 0;
+}
+.navbar {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+}
+
+.button {
+  position: relative;
+  float: right;
+  margin: 10px 10px;
+  z-index: 99;
+}
+
+#a,
+#b,
+#c {
+  display: block;
+  position: relative;
+  background: rgb(20, 20, 20);
+  margin: 3px;
+}
+
+#a {
+  left: 12px;
+  width: 18px;
+  height: 5px;
+}
+#b {
+  width: 30px;
+  height: 5px;
+}
+#c {
+  width: 24px;
+  height: 5px;
+}
+
+.main {
+  position: relative;
+  height: 450px;
+  display: flex;
+}
+
+.bgfoto {
+  width: 160px;
+  height: 260px;
+  top: 130px;
+  left: 90px;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.1);
+  z-index: 1;
+  box-shadow: 0 0 9px 1px black;
+}
+
+#foto {
+  position: relative;
+  width: 204px;
+  height: 310px;
+  margin: auto;
+  z-index: 2;
+}
+
+#memphis1 {
+  width: 100px;
+  height: 126px;
+  position: absolute;
+  top: 56%;
+  left: 170px;
+}
+#memphis2 {
+  width: 100px;
+  height: 126px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+#kotak {
+  position: absolute;
+  top: 17%;
+  left: 17%;
+  rotate: 30deg;
+  z-index: 6;
+}
+#segitiga {
+  position: absolute;
+  top: 270px;
+  left: 70%;
+}
+#bunder {
+  position: absolute;
+  top: 22%;
+  left: 220px;
+  z-index: 7;
+}
+#x {
+  position: absolute;
+  top: 280px;
+  left: 17%;
+  scale: 1.4;
+}
+
+.word {
+  position: relative;
+}
+.helo {
+  display: none;
+  left: 6%;
+  top: -70px;
+  letter-spacing: 2px;
+  font-family: poppins;
+  font-size: 20px;
+  position: absolute;
+  z-index: 2;
+  color: rgb(2, 2, 2);
+}
+
+.bayangan {
+  top: -65px;
+  position: relative;
+  left: 10px;
+  font-family: poppins;
+  font-size: 28px;
+  color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.name {
+  position: relative;
+  top: -6px;
+}
+
+.container1 {
+  position: relative;
+  margin: 0 12px;
+  height: 400px;
+}
+
+.title {
+  font-family: port;
+  font-size: 14px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.blue {
+  position: relative;
+  display: block;
+  width: 37px;
+  height: 6px;
+  margin: 10px auto 25px;
+  background: #03a9f4;
+}
+
+p {
+  font-family: poppins-reg;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-indent: 10px;
+  color: #eeeeee;
+}
+
+.email {
+  position: relative;
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+  background-color: #03a9f4;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  left: 10%;
+}
+
+#tulisanemail {
+  font-size: 12px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+#iconemail {
+  display: flex;
+  margin: auto 0;
+  margin-right: 5px;
+}
+
+#iconemail img {
+  position: relative;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  margin-right: 5px;
+}
+
+.container2 {
+  height: 600px;
+  position: relative;
+
+  width: 100%;
+}
+
+.skill {
+  text-align: center;
+  font-family: poppins;
+  color: #eeeeee;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.contpersen {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.item1,
+.item2 {
+  position: relative;
+
+  margin-top: 20px;
+}
+#kemampuan1,
+#kemampuan2 {
+  position: relative;
+  font-size: 13px;
+  font-family: poppins-reg;
+  color: #e9e9e9;
+}
+#ovaldasar1,
+#ovaldasar2 {
+  display: block;
+  width: 222px;
+  height: 10px;
+  background: #e9e9e9;
+  border-radius: 40px;
+}
+#ovalwarna1 {
+  display: block;
+  width: 143px;
+  height: 10px;
+  background: #5f4dff;
+  border-radius: 40px;
+}
+#ovalwarna2 {
+  display: block;
+  width: 60px;
+  height: 10px;
+  background: #4b5dff;
+  border-radius: 40px;
+}
+
+.containertool {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.kotak1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  background: #fcfcfc;
+  border-radius: 10px;
+  display: flex;
+}
+
+.kotak1 img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.kotak1 #html,
+#css,
+#php,
+#winbox {
+  width: 60%;
+  height: 60%;
+}
+
+.footer {
+  background-color: rgb(24, 24, 24);
+
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 90px auto 0;
+}
+.bunder1,
+.bunder2,
+.bunder3,
+.bunder4 {
+  background-color: rgb(53, 53, 53);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  margin: auto 0;
+  margin-left: 5px;
+  display: flex;
+}
+
+a {
+  display: block;
+  background-color: rgb(53, 53, 53);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 5px;
+
+  display: flex;
+}
+.bunder1 img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.bunder2 img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.bunder3 img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.bunder4 img {
+  width: 23px;
+  height: 23px;
+  margin: auto;
+}
+
+.containerwhy {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 800px;
+  flex-direction: column;
+}
+
+h3 {
+  position: relative;
+  font-family: poppins;
+  color: #eeeeee;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin: 30px auto 0;
+}
+
+.why1,
+.why2,
+.why3 {
+  width: 100%;
+  height: 190px;
+  top: 100px;
+  position: relative;
+  display: flex;
+}
+.why1 img {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: relative;
+}
+.why1 p {
+  width: 50%;
+  position: relative;
+  margin: auto 10px;
+  font-size: 10px;
+}
+
+.why2 img {
+  width: 150px;
+  height: 150px;
+}
+.why2 p {
+  width: 50%;
+  margin: auto 10px;
+
+  font-size: 10px;
+}
+
+.why3 img {
+  width: 150px;
+  height: 150px;
+}
+.why3 p {
+  width: 50%;
+  margin: auto 10px;
+  font-size: 10px;
+}
+#cpy {
+  font-size: 10px;
+  font-family: monospace;
+}
